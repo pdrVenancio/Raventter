@@ -1,0 +1,176 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 30px; 
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*margin-top: 50px;*/
+    display: flex;
+}
+
+header{  
+    display: flex;
+}
+.cabecalho{
+    padding-top: 20px;
+    flex-basis: 20%;
+}
+.cabecalho__menuItem a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    vertical-align: top;
+
+}
+.cabecalho__menuItem{
+    margin-bottom: 20px;
+}
+main{
+    border-left: 1px solid rgb(228, 227, 227);
+    border-right: 1px solid rgb(228, 227, 227);
+    margin: 0 0 0 30px;
+    height: 947px;
+    width: 710px;
+    /*padding: 20px 5px;*/
+
+}
+.conteudoPrincipal{
+    flex-basis: 60%;
+    /*margin-left: 5px;*/
+}
+.tituloPrincipal{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    padding: 20px 10px;
+    
+}
+.formulario{
+    border-top: 1px solid rgb(228, 227, 227);
+    border-bottom: 1px solid rgb(228, 227, 227);
+    margin: 5px 0;
+    padding: 0px;
+    display: flex;
+    
+}
+.formularioTxt{
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    height: 136px;
+    border: none;
+    outline: none; 
+    resize: none; 
+}
+.formularioImg{
+    height: 35px;
+    width: 35px;
+    padding: 1px 2px;
+}
+button{
+    height: 35px;
+    width: 200px;
+    border-radius: 500px;
+    background-color: rgb(100, 56, 129);
+    border:rgb(100, 56, 129) ;
+    font-weight: bold;
+    color: azure;
+    
+}  
+.form__btn{
+    margin: 89px 15px 0 0px;
+}
+.tweet__principal{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(228, 227, 227) ;
+}
+.conteudoTweet{
+    margin-left: 10px;
+}
+.nomeTweet{
+    display: inline-block;
+    font-weight: bold;
+}
+.imgTweet{
+
+}
+.nickTweet{
+    display: inline-block;
+    color: gray;
+    margin: 0px 10px;
+}
+.txtTweet{
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*barra da direita*/
+
+.aba__direita{
+    display: flex;
+    flex-basis: 20%;
+    
+}
+.pesquisa{
+    margin: 20px 30px;
+    border: 3px solid  rgb(228, 227, 227);
+    border-radius: 20px;
+    width: 300px;
+    height: 35px;
+    display: flex;
+}
+.imgPesquisa{
+    width: 35px;
+}
+.barraPesquisa{
+    border: none;
+    outline: none;
+    height: 23px;
+    padding-top: 11px;  
+    width: 245px;
+    font-size: 17px;
+}
+.estaAcontecendo{
+    background-color: rgb(228, 227, 227);
+    margin: 20px 30px;
+    height: 485px;
+    width: 300px;
+    border-radius: 25px;
+    
+}
+.estaAcontecendo__titulo{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 13px;
+}
+.seguir{
+    background-color: rgb(228, 227, 227);
+    margin: 20px 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+}
+.seguir__titulo{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 13px;
+}
