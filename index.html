@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+   
+    <link rel="icon" href="img/logo.png">
+    <title>Crowtter</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header > 
+            <!--menu-->
+            <ul class="cabecalho">
+                <li class="cabecalho__menuItem" >
+                    <img class='logo' src="img/logo.png" alt="" srcset="">
+                    <a href="index.html"></a>
+                </li>
+                <li class="cabecalho__menuItem">
+                    <img src="img/home.png" class='img' alt="" srcset="">
+                    <a href="index.html">Página inicial</a>
+                </li>
+                <li class="cabecalho__menuItem"> 
+                    <img src="img/hashtag.png" class='img' alt="" srcset="">              
+                    <a href="">Explorar</a>
+                </li>
+                <li class="cabecalho__menuItem">
+                    <img src="img/sino.png" class='img' alt="" srcset="">               
+                    <a href="">Notificações</a>
+                </li>
+                <li class="cabecalho__menuItem"> 
+                    <img src="img/carta.png" class='img' alt="" srcset="">
+                    <a href="">Mensagens</a>
+                </li>
+                <li class="cabecalho__menuItem"> 
+                    <img src="img/salvo.png" class='img' alt="" srcset="">              
+                    <a href="">Itens salvos</a>
+                </li>
+                <li class="cabecalho__menuItem">
+                    <img src="img/list.png" class='img' alt="" srcset="">
+                    <a href="">Listas</a>
+                </li>
+                <li class="cabecalho__menuItem"> 
+                    <img src="img/user.png" class='img' alt="" srcset="">
+                    <a href="">Perfil</a>
+                </li>
+                <li class="cabecalho__menuItem"> 
+                    <img src="img/more.png" class='img' alt="" srcset="">
+                    <a href="">Mais</a>
+                </li>
+                <li>
+                    <button class="cabecalho__btn">Twittar</button>
+                </li>
+            </ul>
+            <!--formulario-->
+            <main>
+                <div class="conteudoPrincipal">
+                    <h3 class="tituloPrincipal">Página inicia</h3>
+                    <form class="formulario" action="">
+                        <img class="formularioImg" src="img/user.png" alt="" srcset="">
+                        <textarea class="formularioTxt" name="Texto" placeholder="O que esta acontecendo?"></textarea>
+                        <button type="submit" class="form__btn">Twittar</button>
+                    </form>
+                             
+                
+                <!--feed news-->
+                <section>
+                    <ul class="feed">
+                    </ul>
+                </section>
+            </div>
+            </main>
+            <!--Aba da direita-->
+            <div class="aba__direita">
+                <ul> 
+                    <div class="pesquisa">
+                        <img class="imgPesquisa" src="img/lupa.png" alt="">
+                        <input class="barraPesquisa" type="text" placeholder="Buscar no twitter...">
+                    </div>
+                    <div class="estaAcontecendo">
+                        <p class="estaAcontecendo__titulo">O que está acontecendo</p> 
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="seguir">
+                        <p class="seguir__titulo">Quem seguir</p>
+                    </div>
+                </ul>  
+            </div>
+        </header>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
