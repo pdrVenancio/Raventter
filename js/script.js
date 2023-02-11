@@ -1,3 +1,13 @@
+let documentTitle = document.title
+
+window.addEventListener("blur", () => {
+    document.title = "Volta aqui cara :("
+})
+
+window.addEventListener("focus", () => {
+    document.title = documentTitle
+})
+
 const tweetar = document.querySelector('.form__btn')
 const txtArea = document.querySelector('textarea')
 const feed    = document.querySelector('.feed')
