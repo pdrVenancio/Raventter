@@ -8,7 +8,6 @@ img{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /*margin-top: 50px;*/
     display: flex;
 }
 
@@ -73,7 +72,7 @@ main{
     width: 35px;
     padding: 1px 2px;
 }
-button{
+.cabecalho__btn{
     height: 35px;
     width: 200px;
     border-radius: 500px;
@@ -84,6 +83,13 @@ button{
     
 }  
 .form__btn{
+    height: 35px;
+    width: 200px;
+    border-radius: 500px;
+    background-color: rgb(100, 56, 129);
+    border:rgb(100, 56, 129) ;
+    font-weight: bold;
+    color: azure;
     margin: 89px 15px 0 0px;
 }
 .tweet__principal{
@@ -110,18 +116,6 @@ button{
 .txtTweet{
     padding-top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*barra da direita*/
 
@@ -162,6 +156,31 @@ button{
     font-weight: bold;
     padding: 13px;
 }
+.estaAcontecendo__lista{
+    padding: 5px 16px;
+}
+.estaAcontecendo__conteudo{
+    padding: 9px 0px
+}
+.assuntoMomento{
+    font-size: 15px;
+    color: rgb(126, 124, 124);
+}
+.conteudoTitulo{
+    padding: 5px 0px;
+    font-weight: bolder;
+    font-size: 18px;
+    color:  rgb(100, 56, 129);
+}
+.mostrarMais{
+    color:  rgb(100, 56, 129);
+    text-decoration: none;
+}
+.conteudoNum{
+    text-decoration: none;
+    color: rgb(126, 124, 124);
+    font-size: 15px;
+}
 .seguir{
     background-color: rgb(228, 227, 227);
     margin: 20px 30px;
@@ -173,4 +192,43 @@ button{
     font-weight: bold;
     font-size: 22px;
     padding: 13px;
+}
+.listaSeguir{
+    
+}
+.seguirConteudo{
+    display: flex;
+    padding: 11px 5px;
+}
+.imgUser{
+    flex-basis: 16%;
+    height: 45px;
+}
+.infoUser{
+    flex-basis: 55%;
+}
+.nameUser{
+    font-weight: bolder;
+    font-size: 17px;
+    color:  rgb(100, 56, 129);
+}
+.user{
+    text-decoration: none;
+    color: rgb(126, 124, 124);
+    font-size: 15px;
+}
+.btnSeguir{
+    flex-basis: 25%;
+    height: 35px;
+    width: 200px;
+    border-radius: 500px;
+    background-color: rgb(100, 56, 129);
+    border:rgb(100, 56, 129) ;
+    font-weight: bold;
+    color: azure;
+}
+.seguirMais{
+    text-decoration: none;
+    color:  rgb(100, 56, 129);
+    padding: 0px 12px;
 }
